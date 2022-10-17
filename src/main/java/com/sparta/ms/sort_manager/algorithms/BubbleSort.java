@@ -7,13 +7,13 @@ public class BubbleSort implements Sortable{
 
     @Override
     public void sortArray(){
-        sortArrayWithBubblesort(ArrayGenerator.generateRandomArray());
+        DisplayManager.printSortedArray(sortArrayWithBubblesort(ArrayGenerator.generateRandomArray()));
     }
-    private static void sortArrayWithBubblesort(int[] array){
-       int[] sortedArray = copyArray(array, array.length);
+    private static int[] sortArrayWithBubblesort(int[] array){
+       int[] sortedArray = array;
 
         if(sortedArray.length <= 1){
-            DisplayManager.printResult(sortedArray,sortedArray);
+            return sortedArray;
         }
         for(int i = 0; i < sortedArray.length -1; i++){
             boolean sorted = true;
@@ -29,16 +29,7 @@ public class BubbleSort implements Sortable{
             }
         }
 
-        DisplayManager.printResult(array,sortedArray);
-    }
-
-    private static int[] copyArray(int[] arrayToCopy, int length) {
-        int[] copyOfArray = new int[length];
-        for(int i = 0; i < length; i++){
-            copyOfArray[i] = arrayToCopy[i];
-        }
-
-        return copyOfArray;
+        return sortedArray;
     }
 
     private static void swapped(int[] array, int j) {

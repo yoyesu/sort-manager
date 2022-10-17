@@ -12,12 +12,15 @@ public class DisplayManager {
         System.out.println("Please introduce the length of the array to sort.");
     }
 
-    public static void printResult(int[] unsortedArray, int[] sortedArray){
-        System.out.println("Unsorted array = " + Arrays.toString(unsortedArray));
+    public static void printSortedArray(int[] sortedArray){
         System.out.println("Sorted array = " + Arrays.toString(sortedArray));
     }
 
     public static void printError() {
         System.out.println("Invalid value. Try again.");
+    }
+
+    public static void printOriginalArray(int[] unsortedArray) {
+        System.out.println("Unsorted array = " + Arrays.toString(unsortedArray));
     }
 }

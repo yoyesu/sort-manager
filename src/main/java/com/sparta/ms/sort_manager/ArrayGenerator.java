@@ -14,6 +14,7 @@ public class ArrayGenerator {
             array[i] = randNumber.nextInt(1001);
         }
 
+        DisplayManager.printOriginalArray(array);
         return array;
     }
 
