@@ -10,9 +10,10 @@ public class ArrayGenerator {
         int[] array = new int[arrayLength];
         Random randNumber = new Random();
 
-        for(int value: array){
-            value = randNumber.nextInt(1001);
+        for (int i = 0; i < arrayLength; i++){
+            array[i] = randNumber.nextInt(1001);
         }
+
         return array;
     }
 
@@ -22,6 +23,11 @@ public class ArrayGenerator {
         Scanner sc = new Scanner(System.in);
         int arrayLength = sc.nextInt();
         sc.hasNextLine();
+
+        if(arrayLength < 0){
+            DisplayManager.printError();
+            setArrayLength();
+        }
         return arrayLength;
     }
 }

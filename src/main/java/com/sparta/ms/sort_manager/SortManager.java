@@ -1,7 +1,6 @@
 package com.sparta.ms.sort_manager;
 
 import com.sparta.ms.sort_manager.algorithms.BubbleSort;
-
 import java.util.Scanner;
 
 public class SortManager {
@@ -18,10 +17,10 @@ public class SortManager {
             }
 //            case 2 -> ;
             case "X" -> System.out.println("Bye, bye!");
-//            default -> {
-//                System.out.println("Invalid option entered. Try again ");
-//                chooseTypeOfSorter();
-
+            default -> {
+                System.out.println("Invalid option entered. Try again ");
+                chooseTypeOfSorter();
+            }
         }
     }
 
