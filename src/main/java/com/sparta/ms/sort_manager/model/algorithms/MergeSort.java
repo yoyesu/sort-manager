@@ -1,15 +1,17 @@
-package com.sparta.ms.sort_manager.algorithms;
+package com.sparta.ms.sort_manager.model.algorithms;
 
-import com.sparta.ms.sort_manager.ArrayGenerator;
-import com.sparta.ms.sort_manager.DisplayManager;
+import com.sparta.ms.sort_manager.model.ArrayGenerator;
+import com.sparta.ms.sort_manager.view.DisplayManager;
 
-public class MergeSort implements Sortable{
+public class MergeSort extends Sorter {
 
-    public void sortArray(){
-        DisplayManager.printSortedArray(getSortedArrayWithMergeSort(ArrayGenerator.generateRandomArray()));
+    public static String sorterName = "Merge sort";
+    @Override
+    public String getSorterName() {
+        return sorterName;
     }
 
-    private static int[] getSortedArrayWithMergeSort (int[] givenArray){
+    public int[] sortArray(int[] givenArray){
         int arraySize = givenArray.length;
 
         if (arraySize <= 1){
@@ -31,8 +33,8 @@ public class MergeSort implements Sortable{
         }
 
         //if the half arrays are not sorted before merging, the merged array won't be sorted
-        getSortedArrayWithMergeSort(leftArray);
-        getSortedArrayWithMergeSort(rightArray);
+        sortArray(leftArray);
+        sortArray(rightArray);
 
         return mergeLeftAndRight(givenArray, leftArray, rightArray);
     }

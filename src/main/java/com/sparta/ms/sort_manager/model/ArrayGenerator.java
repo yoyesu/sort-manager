@@ -1,4 +1,6 @@
-package com.sparta.ms.sort_manager;
+package com.sparta.ms.sort_manager.model;
+
+import com.sparta.ms.sort_manager.view.DisplayManager;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -20,7 +22,6 @@ public class ArrayGenerator {
 
     private static int setArrayLength(){
         DisplayManager.askForArrayLength();
-
         Scanner sc = new Scanner(System.in);
         int arrayLength = sc.nextInt();
         sc.hasNextLine();

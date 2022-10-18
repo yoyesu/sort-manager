@@ -1,4 +1,4 @@
-package com.sparta.ms.sort_manager.algorithms;
+package com.sparta.ms.sort_manager.model.algorithms;
 
 public interface BinaryTree {
     int getRootElement();

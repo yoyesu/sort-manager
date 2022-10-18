@@ -1,15 +1,21 @@
-package com.sparta.ms.sort_manager.algorithms;
+package com.sparta.ms.sort_manager.model.algorithms;
 
-import com.sparta.ms.sort_manager.ArrayGenerator;
-import com.sparta.ms.sort_manager.DisplayManager;
+import com.sparta.ms.sort_manager.model.ArrayGenerator;
+import com.sparta.ms.sort_manager.view.DisplayManager;
 
-public class BubbleSort implements Sortable{
+public class BubbleSort extends Sorter {
+    public static String sorterName = "Bubble sort";
 
-    @Override
-    public void sortArray(){
-        DisplayManager.printSortedArray(sortArrayWithBubblesort(ArrayGenerator.generateRandomArray()));
+//    BubbleSort(String sorterName) {
+//        super(sorterName);
+//    }
+
+
+    public String getSorterName(){
+        return sorterName;
     }
-    private static int[] sortArrayWithBubblesort(int[] array){
+
+    public int[] sortArray(int[] array){
        int[] sortedArray = array;
 
         if(sortedArray.length <= 1){

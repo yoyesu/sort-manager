@@ -1,6 +1,11 @@
-package com.sparta.ms.sort_manager;
+package com.sparta.ms.sort_manager.view;
+
+import com.sparta.ms.sort_manager.controller.SorterFactory;
+import com.sparta.ms.sort_manager.model.algorithms.BubbleSort;
+import com.sparta.ms.sort_manager.model.algorithms.Sorter;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class DisplayManager {
     public static void printStartMenu(){
@@ -11,7 +16,9 @@ public class DisplayManager {
     public static void askForArrayLength(){
         System.out.println("Please introduce the length of the array to sort.");
     }
-
+    public static void printSorterName(String name){
+        System.out.println("Array sorted with " + name + " algorithm.");
+    }
     public static void printSortedArray(int[] sortedArray){
         System.out.println("Sorted array = " + Arrays.toString(sortedArray));
     }
@@ -22,5 +29,12 @@ public class DisplayManager {
 
     public static void printOriginalArray(int[] unsortedArray) {
         System.out.println("Unsorted array = " + Arrays.toString(unsortedArray));
+    }
+
+    public static void printResult(String sorterName, int[] sortedArray) {
+//        String originalArray = Arrays.toString(unsortedArray);
+        String resultingArray = Arrays.toString(sortedArray);
+        System.out.println("Algorith used: " + sorterName +
+                "\nSorted array: " + resultingArray);
     }
 }

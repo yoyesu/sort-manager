@@ -1,9 +1,5 @@
 package com.sparta.ms.sort_manager;
 
-import com.sparta.ms.sort_manager.algorithms.BubbleSort;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 //public class BubblesortTester {
