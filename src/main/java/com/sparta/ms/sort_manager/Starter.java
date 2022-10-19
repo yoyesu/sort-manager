@@ -15,6 +15,7 @@ public class Starter {
         Sorter chosenSorter = sorterFactory.createSorter(userInput);
         String sorterName = chosenSorter.getSorterName();
         int[] unsortedArray = ArrayGenerator.generateRandomArray();
+        DisplayManager.printOriginalArray(unsortedArray);
         int[] sortedArray = chosenSorter.sortArray(unsortedArray);
 
         DisplayManager.printResult(sorterName, sortedArray);

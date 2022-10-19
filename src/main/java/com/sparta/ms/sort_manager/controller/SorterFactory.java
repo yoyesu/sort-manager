@@ -1,5 +1,6 @@
 package com.sparta.ms.sort_manager.controller;
 
+import com.sparta.ms.sort_manager.model.algorithms.BinaryTreeSort;
 import com.sparta.ms.sort_manager.model.algorithms.BubbleSort;
 import com.sparta.ms.sort_manager.model.algorithms.MergeSort;
 import com.sparta.ms.sort_manager.model.algorithms.Sorter;
@@ -16,6 +17,9 @@ public class SorterFactory {
             }
             case "2" -> {
                 return new MergeSort();
+            }
+            case "3" -> {
+                return new BinaryTreeSort(0);
             }
             case "X" -> System.out.println("Bye, bye!");
             default -> {

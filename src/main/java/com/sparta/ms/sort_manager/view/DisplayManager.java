@@ -34,7 +34,7 @@ public class DisplayManager {
     public static void printResult(String sorterName, int[] sortedArray) {
 //        String originalArray = Arrays.toString(unsortedArray);
         String resultingArray = Arrays.toString(sortedArray);
-        System.out.println("Algorith used: " + sorterName +
+        System.out.println("Algorithm used: " + sorterName +
                 "\nSorted array: " + resultingArray);
     }
 }
