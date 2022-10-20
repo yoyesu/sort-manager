@@ -1,6 +1,11 @@
 package com.sparta.ms.sort_manager.model.algorithms;
 
+import com.sparta.ms.sort_manager.model.exceptions.ChildNotFoundException;
+
+import java.util.logging.Level;
+
 public class BinaryTreeSort extends Sorter {
+//    private static final Logger logger = Logger.getLogger("binaryTree-logger");
 
     private final String name = "Binary tree";
     private final Node rootNode;
@@ -48,9 +53,7 @@ public class BinaryTreeSort extends Sorter {
 
     ///////////// END OF NODE CLASS/////////////
 
-//    public BinaryTreeSort(){
-//
-//    }
+
     public BinaryTreeSort(int element){
         this.rootNode = new Node(element);
     }
@@ -64,6 +67,7 @@ public class BinaryTreeSort extends Sorter {
     }
 
     private void addNodeToTree(Node node, int element){
+
         if (element < node.getValue()){
             if(node.isLeftChildEmpty()){
                 node.setLeftChild(new Node(element));
@@ -92,28 +96,64 @@ public class BinaryTreeSort extends Sorter {
             }
 
             if (element < node.getValue()){
-                return node = node.getLeftChild();
+                node = node.getLeftChild();
             } else if(element > node.getValue()){
-                return node = node.getRightChild();
+                node = node.getRightChild();
             }
         }
         return null;
     }
+
+    private BinaryTreeSort createTree(int[] unsortedArray){
+        BinaryTreeSort tree = new BinaryTreeSort(unsortedArray[0]);
+        for(int value:unsortedArray) {
+//            logger.log(Level.FINE, "inside first loop. Value added to Tree = " + value);
+            tree.addElementToTree(value);
+        }
+
+        return tree;
+
+    }
     @Override
     public int[] sortArray(int[] unsortedArray) {
-        new BinaryTreeSort(unsortedArray[0]);
-        int[] sortedArray = new int[unsortedArray.length];
-        int arrayIndex = 0;
-        for(int value:unsortedArray){
-            addElementToTree(value);
+//        CustomLoggingConfig.configBinaryTreeLogger(logger);
+//        logger.log(Level.INFO, "the sortarray method has run");
+
+        if(unsortedArray.length <= 1){
+            return unsortedArray;
         }
 
-        for(int element:unsortedArray) {
+//        int[] sortedArray = new int[unsortedArray.length];
+        int index = 0;
 
-            sortedArray[arrayIndex] = findNode(element).getValue();
-            arrayIndex++;
+        Node currentNode = createTree(unsortedArray).rootNode;
+        System.out.println("rootnode " + currentNode.getValue());
 
-        }
-        return sortedArray;
+        sort(currentNode, unsortedArray, index);
+        return unsortedArray;
     }
-}
+
+    public Node sort(Node currentNode, int[] array, int index){
+        int n = 0;
+
+            if(!currentNode.isLeftChildEmpty()){
+                currentNode = currentNode.getLeftChild();
+                sort(currentNode, array, index);
+            } else {
+                if(!currentNode.isRightChildEmpty()){
+                    currentNode = currentNode.getRightChild();
+                    sort(currentNode, array, index);
+                }
+            }
+
+            System.out.println(currentNode.getValue());
+            array[index] = currentNode.getValue();
+            ++index;
+//        }
+
+
+        return currentNode;
+    }
+
+
+    }

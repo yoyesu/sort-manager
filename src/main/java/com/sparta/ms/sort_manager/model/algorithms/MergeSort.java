@@ -1,20 +1,28 @@
 package com.sparta.ms.sort_manager.model.algorithms;
 
-import com.sparta.ms.sort_manager.model.ArrayGenerator;
-import com.sparta.ms.sort_manager.view.DisplayManager;
+import com.sparta.ms.sort_manager.logging.MergeSingletonLog;
+
+import java.util.Arrays;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class MergeSort extends Sorter {
 
     public static String sorterName = "Merge sort";
+    private static final Logger logger = Logger.getLogger("mergesort-logger");
+    MergeSingletonLog config = MergeSingletonLog.getInstance();
     @Override
     public String getSorterName() {
         return sorterName;
     }
 
     public int[] sortArray(int[] givenArray){
+        config.logMerge(logger);
+
         int arraySize = givenArray.length;
 
         if (arraySize <= 1){
+            logger.log(Level.INFO, "Array returned because length is <= 1 =");
            return givenArray;
         }
         int midIndex = arraySize /2;
@@ -32,7 +40,6 @@ public class MergeSort extends Sorter {
             rightArray[i - midIndex] = givenArray[i];
         }
 
-        //if the half arrays are not sorted before merging, the merged array won't be sorted
         sortArray(leftArray);
         sortArray(rightArray);
 
@@ -43,6 +50,10 @@ public class MergeSort extends Sorter {
         int indexGivenArray = 0;
         int indexLeftArr = 0;
         int indexRightArr = 0;
+
+        logger.log(Level.INFO, "Merge started.");
+        logger.log(Level.INFO, "L array size = " + leftArray.length);
+        logger.log(Level.INFO, "R array size = " + rightArray.length);
 
         while (indexLeftArr < leftArray.length && indexRightArr < rightArray.length){
             if(leftArray[indexLeftArr] <= rightArray[indexRightArr]){ // <= in case we're comparing two equal numbers
@@ -55,20 +66,22 @@ public class MergeSort extends Sorter {
             indexGivenArray++;
         }
 
-        //if we have completely sorted one array (r/l), we need to sort the remaining ints in the array that is not
-        // sorted yet
-        while (indexLeftArr < leftArray.length){ //sort left is right is sorted above
+
+        while (indexLeftArr < leftArray.length){ //sort left if right is sorted above
+            logger.log(Level.FINE, "R array is sorted. Finalising L");
             givenArray[indexGivenArray] = leftArray[indexLeftArr];
             indexLeftArr++;
             indexGivenArray++;
         }
 
         while (indexRightArr < rightArray.length){ //sort right if left is sorted above
+            logger.log(Level.FINE, "L array is sorted. Finalising R");
             givenArray[indexGivenArray] = rightArray[indexRightArr];
             indexRightArr++;
             indexGivenArray++;
         }
 
+        logger.log(Level.INFO, "Merged array = " + Arrays.toString(givenArray));
         return givenArray;
 
     }

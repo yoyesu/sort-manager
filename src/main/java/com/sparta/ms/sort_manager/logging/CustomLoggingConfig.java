@@ -1,10 +1,32 @@
 package com.sparta.ms.sort_manager.logging;
 
-import java.util.logging.LogManager;
+import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class CustomLoggingConfig {
-    private static final LogManager logManager = LogManager.getLogManager();
-    private static final Logger logger = Logger.getLogger("MyLog.log");
+
+    public static void configBinaryTreeLogger(Logger logger){
+        logger.setUseParentHandlers(false);
+        logger.addHandler(CustomFileHandler.getBinaryTreeFileHandler());
+        logger.setLevel(Level.ALL);
+    }
+
+    public static void configQuickSortLogger(Logger logger){
+        logger.setUseParentHandlers(false);
+        logger.addHandler(CustomFileHandler.getQuickSortFileHandler());
+        logger.setLevel(Level.ALL);
+    }
+
+    public static void configBubbleSortLogger(Logger logger){
+        logger.setUseParentHandlers(false);
+        logger.addHandler(CustomFileHandler.getBubblesortFileHandler());
+        logger.setLevel(Level.ALL);
+    }
+
+//    public static void configMergeSortLogger(Logger logger){
+//        logger.setUseParentHandlers(false);
+//        logger.addHandler(new SynchronizedLogger());
+//        logger.setLevel(Level.ALL);
+//    }
 
 }

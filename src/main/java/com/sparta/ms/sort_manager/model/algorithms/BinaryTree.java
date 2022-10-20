@@ -1,5 +1,7 @@
 package com.sparta.ms.sort_manager.model.algorithms;
 
+import com.sparta.ms.sort_manager.model.exceptions.ChildNotFoundException;
+
 public interface BinaryTree {
     int getRootElement();
 
@@ -11,7 +13,7 @@ public interface BinaryTree {
 
     boolean findElement(int value);
 
-//    int getLeftChild(int element) throws ChildNotFoundException;
+    int getLeftChild(int element) throws ChildNotFoundException;
 
 //    int getRightChild(int element) throws ChildNotFoundException;
 

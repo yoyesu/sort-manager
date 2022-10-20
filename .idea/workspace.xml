@@ -6,10 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="8d4c27b9-ca09-425b-953d-64d7d2c55d28" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/Starter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/view/Starter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/controller/SorterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/controller/SorterFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/logging/CustomFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/logging/CustomFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/logging/CustomHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/logging/CustomFileHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/logging/CustomLoggingConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/logging/CustomLoggingConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/ArrayGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/ArrayGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/algorithms/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/algorithms/BinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/algorithms/BinaryTreeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/algorithms/BinaryTreeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/algorithms/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/algorithms/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/algorithms/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/algorithms/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/exceptions/ChildNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/exceptions/ChildNotFoundException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/view/DisplayManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/view/DisplayManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,13 +47,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.sparta.ms.sort_manager.model.exceptions" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.sparta.ms.sort_manager.App" />
+      <module name="SortManager" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

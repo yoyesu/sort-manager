@@ -1,15 +1,13 @@
 package com.sparta.ms.sort_manager.controller;
 
-import com.sparta.ms.sort_manager.model.algorithms.BinaryTreeSort;
-import com.sparta.ms.sort_manager.model.algorithms.BubbleSort;
-import com.sparta.ms.sort_manager.model.algorithms.MergeSort;
-import com.sparta.ms.sort_manager.model.algorithms.Sorter;
+import com.sparta.ms.sort_manager.model.algorithms.*;
+import com.sparta.ms.sort_manager.model.exceptions.InvalidSorterException;
 
 import java.util.Scanner;
 
 public class SorterFactory {
 
-    public Sorter createSorter(String chosenOption){
+    public Sorter createSorter(String chosenOption) throws InvalidSorterException {
 
         switch (chosenOption) {
             case "1" -> {
@@ -21,10 +19,13 @@ public class SorterFactory {
             case "3" -> {
                 return new BinaryTreeSort(0);
             }
+            case "4" -> {
+                return new Quicksort();
+            }
             case "X" -> System.out.println("Bye, bye!");
             default -> {
-                System.out.println("Invalid option entered. Try again ");
-                createSorter(chosenOption);
+                System.out.println();
+                throw new InvalidSorterException("Invalid sorter.");
             }
         }
 

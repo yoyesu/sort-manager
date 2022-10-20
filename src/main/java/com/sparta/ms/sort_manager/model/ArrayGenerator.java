@@ -20,15 +20,21 @@ public class ArrayGenerator {
     }
 
     private static int setArrayLength(){
-        DisplayManager.askForArrayLength();
-        Scanner sc = new Scanner(System.in);
-        int arrayLength = sc.nextInt();
-        sc.hasNextLine();
 
-        if(arrayLength < 0){
-            DisplayManager.printError();
+        try{
+            DisplayManager.askForArrayLength();
+            Scanner sc = new Scanner(System.in);
+            int arrayLength = sc.nextInt();
+            sc.hasNextLine();
+
+            if(arrayLength < 0){
+                DisplayManager.printError();
+                setArrayLength();
+            }cd 
+            return arrayLength;
+        } catch (Exception e){
             setArrayLength();
         }
-        return arrayLength;
+        return 0;
     }
 }

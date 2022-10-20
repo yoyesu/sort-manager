@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class DisplayManager {
     public static void printStartMenu(){
         System.out.println("Hello! Enter the number of the sorter you prefer or press X to exit");
-        System.out.println("1. Bubblesort \n2. Mergesort \n3. Binary tree \nX. Exit");
+        System.out.println("1. Bubblesort \n2. Mergesort \n3. Binary tree \n4. Quicksort \nX. Exit");
     }
 
     public static void askForArrayLength(){
