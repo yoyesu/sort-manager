@@ -164,3 +164,79 @@
 2022-10-21---inOrderTraverseTree---FINE------+Inserting value 667 at index 7
 2022-10-21---inOrderTraverseTree---FINE------+Inserting value 841 at index 8
 2022-10-21---inOrderTraverseTree---FINE------+Inserting value 868 at index 9
+2022-10-21---sortArray---INFO---the sortarray method has run
+2022-10-21---sortArray---INFO---the sortarray method has run
+2022-10-21---createTree---FINE------+inside first loop. Value added to Tree = -2
+2022-10-21---createTree---FINE------+inside first loop. Value added to Tree = -94
+2022-10-21---createTree---FINE------+inside first loop. Value added to Tree = 4
+2022-10-21---inOrderTraverseTree---FINE------+Inserting value -94 at index 0
+2022-10-21---inOrderTraverseTree---FINE------+Inserting value -11 at index 1
+2022-10-21---inOrderTraverseTree---FINE------+Inserting value -2 at index 2
+2022-10-21---inOrderTraverseTree---FINE------+Inserting value 4 at index 3
+2022-10-21---sortArray---INFO---the sortarray method has run
+2022-10-21---createTree---FINE------+inside first loop. Value added to Tree = -2
+2022-10-21---createTree---FINE------+inside first loop. Value added to Tree = -94
+2022-10-21---createTree---FINE------+inside first loop. Value added to Tree = 4
+2022-10-21---inOrderTraverseTree---FINE------+Inserting value -94 at index 0
+2022-10-21---inOrderTraverseTree---FINE------+Inserting value -11 at index 1
+2022-10-21---inOrderTraverseTree---FINE------+Inserting value -2 at index 2
+2022-10-21---inOrderTraverseTree---FINE------+Inserting value 4 at index 3
+2022-10-21---sortArray---INFO---the sortarray method has run
+2022-10-21---createTree---FINE------+inside first loop. Value added to Tree = 2
+2022-10-21---createTree---FINE------+inside first loop. Value added to Tree = 3
+2022-10-21---createTree---FINE------+inside first loop. Value added to Tree = 4
+2022-10-21---inOrderTraverseTree---FINE------+Inserting value 1 at index 0
+2022-10-21---inOrderTraverseTree---FINE------+Inserting value 2 at index 1
+2022-10-21---inOrderTraverseTree---FINE------+Inserting value 3 at index 2
+2022-10-21---inOrderTraverseTree---FINE------+Inserting value 4 at index 3
+2022-10-21---sortArray---INFO---the sortarray method has run
+2022-10-21---createTree---FINE------+inside first loop. Value added to Tree = 3
+2022-10-21---createTree---FINE------+inside first loop. Value added to Tree = 9
+2022-10-21---createTree---FINE------+inside first loop. Value added to Tree = 0
+2022-10-21---createTree---FINE------+inside first loop. Value added to Tree = 1
+2022-10-21---inOrderTraverseTree---FINE------+Inserting value 0 at index 0
+2022-10-21---inOrderTraverseTree---FINE------+Inserting value 1 at index 1
+2022-10-21---inOrderTraverseTree---FINE------+Inserting value 3 at index 2
+2022-10-21---inOrderTraverseTree---FINE------+Inserting value 6 at index 3
+2022-10-21---inOrderTraverseTree---FINE------+Inserting value 9 at index 4
+2022-10-21---sortArray---INFO---the sortarray method has run
+2022-10-21---createTree---FINE------+inside first loop. Value added to Tree = 27
+2022-10-21---createTree---FINE------+inside first loop. Value added to Tree = 100
+2022-10-21---createTree---FINE------+inside first loop. Value added to Tree = 43
+2022-10-21---createTree---FINE------+inside first loop. Value added to Tree = 45
+2022-10-21---createTree---FINE------+inside first loop. Value added to Tree = 73
+2022-10-21---createTree---FINE------+inside first loop. Value added to Tree = 23
+2022-10-21---createTree---FINE------+inside first loop. Value added to Tree = 81
+2022-10-21---createTree---FINE------+inside first loop. Value added to Tree = 35
+2022-10-21---createTree---FINE------+inside first loop. Value added to Tree = 73
+2022-10-21---inOrderTraverseTree---FINE------+Inserting value 23 at index 0
+2022-10-21---inOrderTraverseTree---FINE------+Inserting value 27 at index 1
+2022-10-21---inOrderTraverseTree---FINE------+Inserting value 35 at index 2
+2022-10-21---inOrderTraverseTree---FINE------+Inserting value 43 at index 3
+2022-10-21---inOrderTraverseTree---FINE------+Inserting value 45 at index 4
+2022-10-21---inOrderTraverseTree---FINE------+Inserting value 57 at index 5
+2022-10-21---inOrderTraverseTree---FINE------+Inserting value 73 at index 6
+2022-10-21---inOrderTraverseTree---FINE------+Inserting value 73 at index 7
+2022-10-21---inOrderTraverseTree---FINE------+Inserting value 81 at index 8
+2022-10-21---inOrderTraverseTree---FINE------+Inserting value 100 at index 9
+2022-10-21---sortArray---INFO---the sortarray method has run
+2022-10-21---sortArray---INFO---the sortarray method has run
+2022-10-21---createTree---FINE------+inside first loop. Value added to Tree = 83
+2022-10-21---createTree---FINE------+inside first loop. Value added to Tree = 73
+2022-10-21---createTree---FINE------+inside first loop. Value added to Tree = 25
+2022-10-21---createTree---FINE------+inside first loop. Value added to Tree = 51
+2022-10-21---createTree---FINE------+inside first loop. Value added to Tree = 58
+2022-10-21---createTree---FINE------+inside first loop. Value added to Tree = 60
+2022-10-21---createTree---FINE------+inside first loop. Value added to Tree = 88
+2022-10-21---createTree---FINE------+inside first loop. Value added to Tree = 65
+2022-10-21---createTree---FINE------+inside first loop. Value added to Tree = 95
+2022-10-21---inOrderTraverseTree---FINE------+Inserting value 6 at index 0
+2022-10-21---inOrderTraverseTree---FINE------+Inserting value 25 at index 1
+2022-10-21---inOrderTraverseTree---FINE------+Inserting value 51 at index 2
+2022-10-21---inOrderTraverseTree---FINE------+Inserting value 58 at index 3
+2022-10-21---inOrderTraverseTree---FINE------+Inserting value 60 at index 4
+2022-10-21---inOrderTraverseTree---FINE------+Inserting value 65 at index 5
+2022-10-21---inOrderTraverseTree---FINE------+Inserting value 73 at index 6
+2022-10-21---inOrderTraverseTree---FINE------+Inserting value 83 at index 7
+2022-10-21---inOrderTraverseTree---FINE------+Inserting value 88 at index 8
+2022-10-21---inOrderTraverseTree---FINE------+Inserting value 95 at index 9

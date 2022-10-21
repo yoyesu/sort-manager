@@ -22,6 +22,9 @@ public class SorterFactory {
             case 4 -> {
                 return new Quicksort();
             }
+            case 5 -> {
+                return new InsertionSort();
+            }
             default -> {
                 throw new InvalidSorterException("Invalid sorter.");
             }

@@ -1,0 +1,520 @@
+2022-10-21---sortArray---FINE------+Iteration #0
+2022-10-21---sortArray---FINER------++
+Index #0
+ #1 Element value = -11
+ #2 Element value = -2
+2022-10-21---sortArray---FINER------++
+Index #1
+ #1 Element value = -2
+ #2 Element value = -94
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #2
+ #1 Element value = -2
+ #2 Element value = 4
+2022-10-21---sortArray---FINE------+Iteration #1
+2022-10-21---sortArray---FINER------++
+Index #0
+ #1 Element value = -11
+ #2 Element value = -94
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #1
+ #1 Element value = -11
+ #2 Element value = -2
+2022-10-21---sortArray---FINE------+Iteration #2
+2022-10-21---sortArray---FINER------++
+Index #0
+ #1 Element value = -94
+ #2 Element value = -11
+2022-10-21---sortArray---INFO---Breaking out of the loop at iteration #2
+2022-10-21---sortArray---FINE------+Iteration #0
+2022-10-21---sortArray---FINER------++
+Index #0
+ #1 Element value = -11
+ #2 Element value = -2
+2022-10-21---sortArray---FINER------++
+Index #1
+ #1 Element value = -2
+ #2 Element value = -94
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #2
+ #1 Element value = -2
+ #2 Element value = 4
+2022-10-21---sortArray---FINE------+Iteration #1
+2022-10-21---sortArray---FINER------++
+Index #0
+ #1 Element value = -11
+ #2 Element value = -94
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #1
+ #1 Element value = -11
+ #2 Element value = -2
+2022-10-21---sortArray---FINE------+Iteration #2
+2022-10-21---sortArray---FINER------++
+Index #0
+ #1 Element value = -94
+ #2 Element value = -11
+2022-10-21---sortArray---INFO---Breaking out of the loop at iteration #2
+2022-10-21---sortArray---FINE------+Iteration #0
+2022-10-21---sortArray---FINER------++
+Index #0
+ #1 Element value = 1
+ #2 Element value = 2
+2022-10-21---sortArray---FINER------++
+Index #1
+ #1 Element value = 2
+ #2 Element value = 3
+2022-10-21---sortArray---FINER------++
+Index #2
+ #1 Element value = 3
+ #2 Element value = 4
+2022-10-21---sortArray---INFO---Breaking out of the loop at iteration #0
+2022-10-21---sortArray---FINE------+Iteration #0
+2022-10-21---sortArray---FINER------++
+Index #0
+ #1 Element value = 6
+ #2 Element value = 3
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #1
+ #1 Element value = 6
+ #2 Element value = 9
+2022-10-21---sortArray---FINER------++
+Index #2
+ #1 Element value = 9
+ #2 Element value = 0
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #3
+ #1 Element value = 9
+ #2 Element value = 1
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINE------+Iteration #1
+2022-10-21---sortArray---FINER------++
+Index #0
+ #1 Element value = 3
+ #2 Element value = 6
+2022-10-21---sortArray---FINER------++
+Index #1
+ #1 Element value = 6
+ #2 Element value = 0
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #2
+ #1 Element value = 6
+ #2 Element value = 1
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINE------+Iteration #2
+2022-10-21---sortArray---FINER------++
+Index #0
+ #1 Element value = 3
+ #2 Element value = 0
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #1
+ #1 Element value = 3
+ #2 Element value = 1
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINE------+Iteration #3
+2022-10-21---sortArray---FINER------++
+Index #0
+ #1 Element value = 0
+ #2 Element value = 1
+2022-10-21---sortArray---INFO---Breaking out of the loop at iteration #3
+2022-10-21---sortArray---FINE------+Iteration #0
+2022-10-21---sortArray---FINER------++
+Index #0
+ #1 Element value = 28
+ #2 Element value = 72
+2022-10-21---sortArray---FINER------++
+Index #1
+ #1 Element value = 72
+ #2 Element value = 91
+2022-10-21---sortArray---FINER------++
+Index #2
+ #1 Element value = 91
+ #2 Element value = 4
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #3
+ #1 Element value = 91
+ #2 Element value = 93
+2022-10-21---sortArray---FINER------++
+Index #4
+ #1 Element value = 93
+ #2 Element value = 5
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #5
+ #1 Element value = 93
+ #2 Element value = 47
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #6
+ #1 Element value = 93
+ #2 Element value = 89
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #7
+ #1 Element value = 93
+ #2 Element value = 75
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #8
+ #1 Element value = 93
+ #2 Element value = 68
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINE------+Iteration #1
+2022-10-21---sortArray---FINER------++
+Index #0
+ #1 Element value = 28
+ #2 Element value = 72
+2022-10-21---sortArray---FINER------++
+Index #1
+ #1 Element value = 72
+ #2 Element value = 4
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #2
+ #1 Element value = 72
+ #2 Element value = 91
+2022-10-21---sortArray---FINER------++
+Index #3
+ #1 Element value = 91
+ #2 Element value = 5
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #4
+ #1 Element value = 91
+ #2 Element value = 47
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #5
+ #1 Element value = 91
+ #2 Element value = 89
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #6
+ #1 Element value = 91
+ #2 Element value = 75
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #7
+ #1 Element value = 91
+ #2 Element value = 68
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINE------+Iteration #2
+2022-10-21---sortArray---FINER------++
+Index #0
+ #1 Element value = 28
+ #2 Element value = 4
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #1
+ #1 Element value = 28
+ #2 Element value = 72
+2022-10-21---sortArray---FINER------++
+Index #2
+ #1 Element value = 72
+ #2 Element value = 5
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #3
+ #1 Element value = 72
+ #2 Element value = 47
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #4
+ #1 Element value = 72
+ #2 Element value = 89
+2022-10-21---sortArray---FINER------++
+Index #5
+ #1 Element value = 89
+ #2 Element value = 75
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #6
+ #1 Element value = 89
+ #2 Element value = 68
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINE------+Iteration #3
+2022-10-21---sortArray---FINER------++
+Index #0
+ #1 Element value = 4
+ #2 Element value = 28
+2022-10-21---sortArray---FINER------++
+Index #1
+ #1 Element value = 28
+ #2 Element value = 5
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #2
+ #1 Element value = 28
+ #2 Element value = 47
+2022-10-21---sortArray---FINER------++
+Index #3
+ #1 Element value = 47
+ #2 Element value = 72
+2022-10-21---sortArray---FINER------++
+Index #4
+ #1 Element value = 72
+ #2 Element value = 75
+2022-10-21---sortArray---FINER------++
+Index #5
+ #1 Element value = 75
+ #2 Element value = 68
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINE------+Iteration #4
+2022-10-21---sortArray---FINER------++
+Index #0
+ #1 Element value = 4
+ #2 Element value = 5
+2022-10-21---sortArray---FINER------++
+Index #1
+ #1 Element value = 5
+ #2 Element value = 28
+2022-10-21---sortArray---FINER------++
+Index #2
+ #1 Element value = 28
+ #2 Element value = 47
+2022-10-21---sortArray---FINER------++
+Index #3
+ #1 Element value = 47
+ #2 Element value = 72
+2022-10-21---sortArray---FINER------++
+Index #4
+ #1 Element value = 72
+ #2 Element value = 68
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINE------+Iteration #5
+2022-10-21---sortArray---FINER------++
+Index #0
+ #1 Element value = 4
+ #2 Element value = 5
+2022-10-21---sortArray---FINER------++
+Index #1
+ #1 Element value = 5
+ #2 Element value = 28
+2022-10-21---sortArray---FINER------++
+Index #2
+ #1 Element value = 28
+ #2 Element value = 47
+2022-10-21---sortArray---FINER------++
+Index #3
+ #1 Element value = 47
+ #2 Element value = 68
+2022-10-21---sortArray---INFO---Breaking out of the loop at iteration #5
+2022-10-21---sortArray---FINE------+Iteration #0
+2022-10-21---sortArray---FINER------++
+Index #0
+ #1 Element value = 69
+ #2 Element value = 98
+2022-10-21---sortArray---FINER------++
+Index #1
+ #1 Element value = 98
+ #2 Element value = 6
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #2
+ #1 Element value = 98
+ #2 Element value = 23
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #3
+ #1 Element value = 98
+ #2 Element value = 95
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #4
+ #1 Element value = 98
+ #2 Element value = 65
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #5
+ #1 Element value = 98
+ #2 Element value = 46
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #6
+ #1 Element value = 98
+ #2 Element value = 94
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #7
+ #1 Element value = 98
+ #2 Element value = 21
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #8
+ #1 Element value = 98
+ #2 Element value = 57
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINE------+Iteration #1
+2022-10-21---sortArray---FINER------++
+Index #0
+ #1 Element value = 69
+ #2 Element value = 6
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #1
+ #1 Element value = 69
+ #2 Element value = 23
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #2
+ #1 Element value = 69
+ #2 Element value = 95
+2022-10-21---sortArray---FINER------++
+Index #3
+ #1 Element value = 95
+ #2 Element value = 65
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #4
+ #1 Element value = 95
+ #2 Element value = 46
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #5
+ #1 Element value = 95
+ #2 Element value = 94
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #6
+ #1 Element value = 95
+ #2 Element value = 21
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #7
+ #1 Element value = 95
+ #2 Element value = 57
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINE------+Iteration #2
+2022-10-21---sortArray---FINER------++
+Index #0
+ #1 Element value = 6
+ #2 Element value = 23
+2022-10-21---sortArray---FINER------++
+Index #1
+ #1 Element value = 23
+ #2 Element value = 69
+2022-10-21---sortArray---FINER------++
+Index #2
+ #1 Element value = 69
+ #2 Element value = 65
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #3
+ #1 Element value = 69
+ #2 Element value = 46
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #4
+ #1 Element value = 69
+ #2 Element value = 94
+2022-10-21---sortArray---FINER------++
+Index #5
+ #1 Element value = 94
+ #2 Element value = 21
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #6
+ #1 Element value = 94
+ #2 Element value = 57
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINE------+Iteration #3
+2022-10-21---sortArray---FINER------++
+Index #0
+ #1 Element value = 6
+ #2 Element value = 23
+2022-10-21---sortArray---FINER------++
+Index #1
+ #1 Element value = 23
+ #2 Element value = 65
+2022-10-21---sortArray---FINER------++
+Index #2
+ #1 Element value = 65
+ #2 Element value = 46
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #3
+ #1 Element value = 65
+ #2 Element value = 69
+2022-10-21---sortArray---FINER------++
+Index #4
+ #1 Element value = 69
+ #2 Element value = 21
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #5
+ #1 Element value = 69
+ #2 Element value = 57
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINE------+Iteration #4
+2022-10-21---sortArray---FINER------++
+Index #0
+ #1 Element value = 6
+ #2 Element value = 23
+2022-10-21---sortArray---FINER------++
+Index #1
+ #1 Element value = 23
+ #2 Element value = 46
+2022-10-21---sortArray---FINER------++
+Index #2
+ #1 Element value = 46
+ #2 Element value = 65
+2022-10-21---sortArray---FINER------++
+Index #3
+ #1 Element value = 65
+ #2 Element value = 21
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #4
+ #1 Element value = 65
+ #2 Element value = 57
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINE------+Iteration #5
+2022-10-21---sortArray---FINER------++
+Index #0
+ #1 Element value = 6
+ #2 Element value = 23
+2022-10-21---sortArray---FINER------++
+Index #1
+ #1 Element value = 23
+ #2 Element value = 46
+2022-10-21---sortArray---FINER------++
+Index #2
+ #1 Element value = 46
+ #2 Element value = 21
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #3
+ #1 Element value = 46
+ #2 Element value = 57
+2022-10-21---sortArray---FINE------+Iteration #6
+2022-10-21---sortArray---FINER------++
+Index #0
+ #1 Element value = 6
+ #2 Element value = 23
+2022-10-21---sortArray---FINER------++
+Index #1
+ #1 Element value = 23
+ #2 Element value = 21
+2022-10-21---swapped---INFO---SWAP MADE
+2022-10-21---sortArray---FINER------++
+Index #2
+ #1 Element value = 23
+ #2 Element value = 46
+2022-10-21---sortArray---FINE------+Iteration #7
+2022-10-21---sortArray---FINER------++
+Index #0
+ #1 Element value = 6
+ #2 Element value = 21
+2022-10-21---sortArray---FINER------++
+Index #1
+ #1 Element value = 21
+ #2 Element value = 23
+2022-10-21---sortArray---INFO---Breaking out of the loop at iteration #7

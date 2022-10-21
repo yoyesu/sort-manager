@@ -1,17 +1,12 @@
 package com.sparta.ms.sort_manager.view;
 
-import com.sparta.ms.sort_manager.controller.SorterFactory;
-import com.sparta.ms.sort_manager.model.algorithms.BubbleSort;
-import com.sparta.ms.sort_manager.model.algorithms.Sorter;
-
 import java.text.DecimalFormat;
 import java.util.Arrays;
-import java.util.Scanner;
-cd 
+
 public class DisplayManager {
     public static void printStartMenu(){
         System.out.println("Hello! Enter the number of the sorter you prefer or press X to exit");
-        System.out.println("1. Bubble Sort \n2. Merge Sort \n3. Binary Tree Sort \n4. Quick Sort");
+        System.out.println("1. Bubble Sort \n2. Merge Sort \n3. Binary Tree Sort \n4. Quick Sort \n5. Insertion Sort");
     }
 
     public static void askForArrayLength(){
