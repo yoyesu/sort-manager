@@ -1,4 +1,4 @@
-package com.sparta.ms.sort_manager;
+package com.sparta.ms.sort_manager.view;
 
 
 import com.sparta.ms.sort_manager.view.Starter;

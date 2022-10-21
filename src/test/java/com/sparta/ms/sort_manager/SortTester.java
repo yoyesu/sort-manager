@@ -2,7 +2,7 @@ package com.sparta.ms.sort_manager;
 
 import com.sparta.ms.sort_manager.controller.SorterFactory;
 import com.sparta.ms.sort_manager.model.algorithms.Sorter;
-import com.sparta.ms.sort_manager.model.exceptions.InvalidSorterException;
+import com.sparta.ms.sort_manager.exceptions.InvalidSorterException;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;

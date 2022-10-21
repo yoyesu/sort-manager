@@ -1,4 +1,4 @@
-package com.sparta.ms.sort_manager.model.exceptions;
+package com.sparta.ms.sort_manager.exceptions;
 
 public class InvalidSorterException extends Exception{
 

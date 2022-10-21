@@ -6,10 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="8d4c27b9-ca09-425b-953d-64d7d2c55d28" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/algorithms/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/algorithms/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/algorithms/Quicksort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/algorithms/Quicksort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/view/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/controller/SorterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/controller/SorterFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/ArrayGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/ArrayGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/algorithms/BinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/exceptions/ChildNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/exceptions/InvalidSorterException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/exceptions/InvalidSorterException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/view/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/view/Starter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/sparta/ms/sort_manager/SortTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sparta/ms/sort_manager/SortTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sparta/ms/sort_manager/TimeTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sparta/ms/sort_manager/TimeTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +61,7 @@
   </component>
   <component name="RunManager">
     <configuration name="app" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.sparta.ms.sort_manager.App" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.ms.sort_manager.view.App" />
       <module name="SortManager" />
       <method v="2">
         <option name="Make" enabled="true" />

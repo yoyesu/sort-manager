@@ -3,8 +3,7 @@ package com.sparta.ms.sort_manager.view;
 import com.sparta.ms.sort_manager.controller.SorterFactory;
 import com.sparta.ms.sort_manager.model.ArrayGenerator;
 import com.sparta.ms.sort_manager.model.algorithms.Sorter;
-import com.sparta.ms.sort_manager.model.exceptions.InvalidSorterException;
-import com.sparta.ms.sort_manager.view.DisplayManager;
+import com.sparta.ms.sort_manager.exceptions.InvalidSorterException;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
