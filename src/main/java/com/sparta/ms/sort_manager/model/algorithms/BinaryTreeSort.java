@@ -123,36 +123,39 @@ public class BinaryTreeSort extends Sorter {
             return unsortedArray;
         }
 
-//        int[] sortedArray = new int[unsortedArray.length];
-        int index = 0;
-
         Node currentNode = createTree(unsortedArray).rootNode;
         System.out.println("rootnode " + currentNode.getValue());
 
-        sort(currentNode, unsortedArray, index);
+        sort(currentNode, unsortedArray);
         return unsortedArray;
     }
+    private int globalIndex = 0;
+    public void sort(Node currentNode, int[] array){
+        if(globalIndex > array.length -1){
+            return;
+        }
+        if(currentNode != null){
+            System.out.println("current node = " + currentNode.getValue());
+            sort(currentNode.getLeftChild(), array);
+            array[globalIndex++] = currentNode.getValue();
+            sort(currentNode.getRightChild(),array);
+        }
 
-    public Node sort(Node currentNode, int[] array, int index){
-        int n = 0;
 
-            if(!currentNode.isLeftChildEmpty()){
-                currentNode = currentNode.getLeftChild();
-                sort(currentNode, array, index);
-            } else {
-                if(!currentNode.isRightChildEmpty()){
-                    currentNode = currentNode.getRightChild();
-                    sort(currentNode, array, index);
-                }
-            }
+//            if(!currentNode.isLeftChildEmpty()){
+//                currentNode = currentNode.getLeftChild();
+//                sort(currentNode, array, index);
+//            } else {
+//                if(!currentNode.isRightChildEmpty()){
+//                    currentNode = currentNode.getRightChild();
+//                    sort(currentNode, array, index);
+//                }
+//            }
 
-            System.out.println(currentNode.getValue());
-            array[index] = currentNode.getValue();
-            ++index;
+//            System.out.println(currentNode.getValue());
+//            array[index] = currentNode.getValue();
+//            ++index;
 //        }
-
-
-        return currentNode;
     }
 
 

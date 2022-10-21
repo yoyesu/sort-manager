@@ -7,36 +7,33 @@ import java.util.Scanner;
 
 public class SorterFactory {
 
-    public Sorter createSorter(String chosenOption) throws InvalidSorterException {
+    public Sorter createSorter(int chosenOption) throws InvalidSorterException {
 
         switch (chosenOption) {
-            case "1" -> {
+            case 1 -> {
                 return new BubbleSort();
             }
-            case "2" -> {
+            case 2 -> {
                 return new MergeSort();
             }
-            case "3" -> {
+            case 3 -> {
                 return new BinaryTreeSort(0);
             }
-            case "4" -> {
+            case 4 -> {
                 return new Quicksort();
             }
-            case "X" -> System.out.println("Bye, bye!");
             default -> {
-                System.out.println();
                 throw new InvalidSorterException("Invalid sorter.");
             }
         }
 
-        return null;
     }
 
-    public String getChosenSorterFromUser() {
+    public int getChosenSorterFromUser() {
 
         Scanner sc = new Scanner(System.in);
-        String chosenOption = sc.nextLine().toUpperCase();
-        //have validation checks here?
+        int chosenOption = sc.nextInt();
+
         return chosenOption;
     }
 
