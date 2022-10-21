@@ -1,8 +1,6 @@
 package com.sparta.ms.sort_manager.model.algorithms;
 
 import com.sparta.ms.sort_manager.logging.CustomLoggingConfig;
-import com.sparta.ms.sort_manager.model.ArrayGenerator;
-import com.sparta.ms.sort_manager.view.DisplayManager;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -48,9 +46,9 @@ public class BubbleSort extends Sorter {
     }
 
     private static void swapped(int[] array, int j) {
-        logger.log(Level.INFO, "SWAP MADE");
         int num1 = array[j];
-        array[j] = array[j +1];
-        array[j +1] = num1;
+        array[j] = array[j + 1];
+        array[j + 1] = num1;
     }
+
 }

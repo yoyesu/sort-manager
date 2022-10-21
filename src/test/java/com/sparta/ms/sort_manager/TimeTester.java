@@ -1,9 +1,6 @@
 package com.sparta.ms.sort_manager;
 
-import com.sparta.ms.sort_manager.model.algorithms.BinaryTreeSort;
-import com.sparta.ms.sort_manager.model.algorithms.BubbleSort;
-import com.sparta.ms.sort_manager.model.algorithms.MergeSort;
-import com.sparta.ms.sort_manager.model.algorithms.Sorter;
+import com.sparta.ms.sort_manager.model.algorithms.*;
 import com.sparta.ms.sort_manager.view.DisplayManager;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
@@ -31,7 +28,7 @@ public class TimeTester {
         Random randNumber = new Random();
 
         for (int i = 0; i < arrayLength; i++){
-            arrayToSort[i] = randNumber.nextInt(1001);
+            arrayToSort[i] = randNumber.nextInt(1000 + 1000) -1000;
         }
     }
 
@@ -42,7 +39,7 @@ public class TimeTester {
 
     @Test
     public void testBubbleSort(){
-        System.out.println("---------" + Arrays.toString(unsortedArray));
+        System.out.println("-----------\n" + "Original array\n" + Arrays.toString(unsortedArray));
         Sorter sorter = new BubbleSort();
         long start = System.nanoTime();
         int[] sortedArray = sorter.sortArray(unsortedArray);
@@ -52,7 +49,7 @@ public class TimeTester {
 
     @Test
     public void testMergeSort(){
-        System.out.println("---------" + Arrays.toString(unsortedArray));
+        System.out.println("-----------\n" + "Original array\n" + Arrays.toString(unsortedArray));
         Sorter sorter = new MergeSort();
         long start = System.nanoTime();
         int[] sortedArray = sorter.sortArray(unsortedArray);
@@ -62,8 +59,18 @@ public class TimeTester {
 
     @Test
     public void testBinaryTreeSort(){
-        System.out.println("---------" + Arrays.toString(unsortedArray));
-        Sorter sorter = new BinaryTreeSort(0);
+        System.out.println("-----------\n" + "Original array\n" + Arrays.toString(unsortedArray));
+        Sorter sorter = new BinaryTreeSort();
+        long start = System.nanoTime();
+        int[] sortedArray = sorter.sortArray(unsortedArray);
+        long end = System.nanoTime();
+        printResults(sorter.getSorterName(), end-start, sortedArray);
+    }
+
+    @Test
+    public void testInsertionSort(){
+        System.out.println("-----------\n" + "Original array\n" + Arrays.toString(unsortedArray));
+        Sorter sorter = new InsertionSort();
         long start = System.nanoTime();
         int[] sortedArray = sorter.sortArray(unsortedArray);
         long end = System.nanoTime();
