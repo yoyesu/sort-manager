@@ -76,4 +76,14 @@ public class TimeTester {
         long end = System.nanoTime();
         printResults(sorter.getSorterName(), end-start, sortedArray);
     }
+
+    @Test
+    public void testQuickSort(){
+        System.out.println("-----------\n" + "Original array\n" + Arrays.toString(unsortedArray));
+        Sorter sorter = new Quicksort();
+        long start = System.nanoTime();
+        int[] sortedArray = sorter.sortArray(unsortedArray);
+        long end = System.nanoTime();
+        printResults(sorter.getSorterName(), end-start, sortedArray);
+    }
 }

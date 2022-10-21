@@ -4,8 +4,8 @@ public class InvalidSorterException extends Exception{
 
     private final String message;
 
-    public InvalidSorterException(String message){
-        this.message = message;
+    public InvalidSorterException(){
+        this.message = "Invalid sorter.";
     }
     @Override
     public String getMessage() {

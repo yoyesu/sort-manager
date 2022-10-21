@@ -19,11 +19,11 @@ public class CustomFormatter extends Formatter {
     @Override
     public String formatMessage(LogRecord record) {
         String message = record.getMessage();
-        if (record.getLevel() == Level.FINE){
+        if (record.getLevel() == Level.FINE){ //First level loop/condition
             message = "---+" + record.getMessage();
-        } else if (record.getLevel() == Level.FINER){
+        } else if (record.getLevel() == Level.FINER){ //Second level loop/condition
             message = "---++" + record.getMessage();
-        } else if (record.getLevel() == Level.FINEST){
+        } else if (record.getLevel() == Level.FINEST){//Third level loop/condition
             message = "---+++" + record.getMessage();
         }
 

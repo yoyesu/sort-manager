@@ -9,12 +9,13 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Starter {
-    static Scanner sc = new Scanner(System.in);
+
     public static void startApp(){
 
         try{
             DisplayManager.printStartMenu();
 
+            //getting input
             SorterFactory sorterFactory = new SorterFactory();
             int userInput = sorterFactory.getChosenSorterFromUser();
             Sorter chosenSorter = sorterFactory.createSorter(userInput);
@@ -22,11 +23,13 @@ public class Starter {
             int[] unsortedArray = ArrayGenerator.generateRandomArray();
             DisplayManager.printOriginalArray(sorterName, unsortedArray);
 
+            //sorting
             long startTime = System.nanoTime();
             int[] sortedArray = chosenSorter.sortArray(unsortedArray);
             long endTime = System.nanoTime();
 
             DisplayManager.printResult(sortedArray, startTime, endTime);
+
         } catch (InvalidSorterException | InputMismatchException e){
 
             System.out.println(e.getMessage());

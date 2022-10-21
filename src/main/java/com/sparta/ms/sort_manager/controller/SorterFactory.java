@@ -3,6 +3,7 @@ package com.sparta.ms.sort_manager.controller;
 import com.sparta.ms.sort_manager.model.algorithms.*;
 import com.sparta.ms.sort_manager.exceptions.InvalidSorterException;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class SorterFactory {
@@ -26,18 +27,22 @@ public class SorterFactory {
                 return new InsertionSort();
             }
             default -> {
-                throw new InvalidSorterException("Invalid sorter.");
+                throw new InvalidSorterException();
             }
         }
 
     }
 
-    public int getChosenSorterFromUser() {
+    public int getChosenSorterFromUser() throws InvalidSorterException {
+        try{
+            Scanner sc = new Scanner(System.in);
+            int chosenOption = sc.nextInt();
 
-        Scanner sc = new Scanner(System.in);
-        int chosenOption = sc.nextInt();
+            return chosenOption;
+        } catch (InputMismatchException e){
+            throw new InvalidSorterException();
+        }
 
-        return chosenOption;
     }
 
 

@@ -10,8 +10,6 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Random;
 
-import static org.junit.jupiter.api.Assertions.assertArrayEquals;
-
 public class SortTester {
 
     private static Sorter sorter;
@@ -19,7 +17,7 @@ public class SortTester {
     @BeforeAll
     public static void setClass() throws InvalidSorterException {
         SorterFactory sorterFactory = new SorterFactory();
-        sorter = sorterFactory.createSorter(4);
+        sorter = sorterFactory.createSorter(1);
         System.out.println("Testing using the sorter " + sorter.getSorterName());
     }
 

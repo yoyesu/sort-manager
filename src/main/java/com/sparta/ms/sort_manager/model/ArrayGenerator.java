@@ -1,8 +1,6 @@
 package com.sparta.ms.sort_manager.model;
 
 import com.sparta.ms.sort_manager.view.DisplayManager;
-import com.sparta.ms.sort_manager.view.Starter;
-
 import java.util.InputMismatchException;
 import java.util.Random;
 import java.util.Scanner;

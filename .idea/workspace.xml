@@ -6,15 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="8d4c27b9-ca09-425b-953d-64d7d2c55d28" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/view/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/controller/SorterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/controller/SorterFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/exceptions/InvalidSorterException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/exceptions/InvalidSorterException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/logging/CustomFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/logging/CustomFormatter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/ArrayGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/ArrayGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/algorithms/BinaryTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/exceptions/ChildNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/exceptions/InvalidSorterException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/exceptions/InvalidSorterException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/algorithms/BinaryTreeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/algorithms/BinaryTreeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/algorithms/Sorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/algorithms/Sorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/view/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/view/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/view/DisplayManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/view/DisplayManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/view/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/view/Starter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/sparta/ms/sort_manager/SortTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sparta/ms/sort_manager/SortTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sparta/ms/sort_manager/TimeTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sparta/ms/sort_manager/TimeTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,46 +91,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/algorithms/BinaryTreeSort.java</url>
-          <line>146</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/algorithms/BinaryTreeSort.java</url>
-          <line>141</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/algorithms/BinaryTreeSort.java</url>
-          <line>147</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/algorithms/BinaryTreeSort.java</url>
-          <line>148</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/algorithms/BinaryTreeSort.java</url>
-          <line>153</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/algorithms/BinaryTreeSort.java</url>
-          <line>155</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/algorithms/BinaryTreeSort.java</url>
-          <line>156</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

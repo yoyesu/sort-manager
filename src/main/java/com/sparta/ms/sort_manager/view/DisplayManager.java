@@ -13,14 +13,6 @@ public class DisplayManager {
         System.out.println("Please introduce the length of the array to sort.");
     }
 
-    public static void printSortedArray(int[] sortedArray){
-        System.out.println("Sorted array = " + Arrays.toString(sortedArray));
-    }
-
-    public static void printError() {
-        System.out.println("Invalid value. Try again.");
-    }
-
     public static void printOriginalArray(String sorterName, int[] unsortedArray) {
         String originalArray = Arrays.toString(unsortedArray);
         System.out.println("Algorithm used: " + sorterName +
