@@ -63,4 +63,18 @@ public class CustomFileHandler {
 
         return null;
     }
+
+    public static Handler getInsertionSortFileHandler() {
+        try {
+            FileHandler fileInsertionSortHandler = new FileHandler("src/main/resources/insertionsort-log.log", true);
+            fileInsertionSortHandler.setLevel(Level.ALL);
+            fileInsertionSortHandler.setFormatter(new CustomFormatter());
+            return fileInsertionSortHandler;
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return null;
+    }
 }

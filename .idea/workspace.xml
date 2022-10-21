@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d4c27b9-ca09-425b-953d-64d7d2c55d28" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/controller/SorterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/controller/SorterFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/logging/MergeSingletonLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/algorithms/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/algorithms/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/view/DisplayManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/view/DisplayManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/binaryTree-log.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/binaryTree-log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mergesort-log.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mergesort-log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sparta/ms/sort_manager/SortTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sparta/ms/sort_manager/SortTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/logging/CustomFileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/logging/CustomFileHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/logging/CustomLoggingConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/logging/CustomLoggingConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/algorithms/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/ms/sort_manager/model/algorithms/InsertionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

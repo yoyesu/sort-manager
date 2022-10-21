@@ -29,4 +29,10 @@ public class CustomLoggingConfig {
         logger.setLevel(Level.ALL);
     }
 
+    public static void configInsertionSortLogger(Logger logger){
+        logger.setUseParentHandlers(false);
+        logger.addHandler(CustomFileHandler.getInsertionSortFileHandler());
+        logger.setLevel(Level.ALL);
+    }
+
 }
