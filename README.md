@@ -66,7 +66,7 @@ and tests to compare their speed.
 <br>
 <br>
 
-### 2. Playing with it
+### 2. Usage
 Before getting started, you need to make sure that you have JDK installed on your machine in order to compile the 
 code and run the app.
 
@@ -74,4 +74,5 @@ code and run the app.
 ```https://github.com/yoyesu/sort-manager.git```
 
 2. Open the project with the IDE you prefer.
-3. Play with it and send a pull request if you feel like it!
+3. Run the app from your IDE.
+4. Play with it and send a pull request if you find any issues or have any suggestions.
