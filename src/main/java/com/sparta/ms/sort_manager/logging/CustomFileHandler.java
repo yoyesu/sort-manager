@@ -50,17 +50,17 @@ public class CustomFileHandler {
         return null;
     }
 
-//    public static Handler getMergesortFileHandler() {
-//        try {
-//            FileHandler fileMergeSortHandler = new FileHandler("src/main/resources/mergesort-log.log", true);
-//            fileMergeSortHandler.setLevel(Level.ALL);
-//            fileMergeSortHandler.setFormatter(new CustomFormatter());
-//            return fileMergeSortHandler;
-//
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//
-//        return null;
-//    }
+    public static Handler getMergesortFileHandler() {
+        try {
+            FileHandler fileMergeSortHandler = new FileHandler("src/main/resources/mergesort-log.log", true);
+            fileMergeSortHandler.setLevel(Level.ALL);
+            fileMergeSortHandler.setFormatter(new CustomFormatter());
+            return fileMergeSortHandler;
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return null;
+    }
 }

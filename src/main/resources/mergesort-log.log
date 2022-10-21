@@ -1,0 +1,47 @@
+2022-10-21---sortArray---INFO---Array returned because length is <= 1 =
+2022-10-21---sortArray---INFO---Array returned because length is <= 1 =
+2022-10-21---sortArray---INFO---Array returned because length is <= 1 =
+2022-10-21---mergeLeftAndRight---INFO---Merge started.
+2022-10-21---mergeLeftAndRight---INFO---L array size = 1
+2022-10-21---mergeLeftAndRight---INFO---R array size = 1
+2022-10-21---mergeLeftAndRight---FINE------+L array is sorted. Finalising R
+2022-10-21---mergeLeftAndRight---INFO---Merged array = [840, 877]
+2022-10-21---mergeLeftAndRight---INFO---Merge started.
+2022-10-21---mergeLeftAndRight---INFO---L array size = 1
+2022-10-21---mergeLeftAndRight---INFO---R array size = 2
+2022-10-21---mergeLeftAndRight---FINE------+L array is sorted. Finalising R
+2022-10-21---mergeLeftAndRight---FINE------+L array is sorted. Finalising R
+2022-10-21---mergeLeftAndRight---INFO---Merged array = [505, 840, 877]
+2022-10-21---sortArray---INFO---Array returned because length is <= 1 =
+2022-10-21---sortArray---INFO---Array returned because length is <= 1 =
+2022-10-21---mergeLeftAndRight---INFO---Merge started.
+2022-10-21---mergeLeftAndRight---INFO---L array size = 1
+2022-10-21---mergeLeftAndRight---INFO---R array size = 1
+2022-10-21---mergeLeftAndRight---FINE------+L array is sorted. Finalising R
+2022-10-21---mergeLeftAndRight---INFO---Merged array = [313, 573]
+2022-10-21---sortArray---INFO---Array returned because length is <= 1 =
+2022-10-21---sortArray---INFO---Array returned because length is <= 1 =
+2022-10-21---mergeLeftAndRight---INFO---Merge started.
+2022-10-21---mergeLeftAndRight---INFO---L array size = 1
+2022-10-21---mergeLeftAndRight---INFO---R array size = 1
+2022-10-21---mergeLeftAndRight---FINE------+L array is sorted. Finalising R
+2022-10-21---mergeLeftAndRight---INFO---Merged array = [108, 517]
+2022-10-21---mergeLeftAndRight---INFO---Merge started.
+2022-10-21---mergeLeftAndRight---INFO---L array size = 2
+2022-10-21---mergeLeftAndRight---INFO---R array size = 2
+2022-10-21---mergeLeftAndRight---FINE------+R array is sorted. Finalising L
+2022-10-21---mergeLeftAndRight---INFO---Merged array = [108, 313, 517, 573]
+2022-10-21---sortArray---INFO---Array returned because length is <= 1 =
+2022-10-21---sortArray---INFO---Array returned because length is <= 1 =
+2022-10-21---sortArray---INFO---Array returned because length is <= 1 =
+2022-10-21---mergeLeftAndRight---INFO---Merge started.
+2022-10-21---mergeLeftAndRight---INFO---L array size = 1
+2022-10-21---mergeLeftAndRight---INFO---R array size = 1
+2022-10-21---mergeLeftAndRight---FINE------+R array is sorted. Finalising L
+2022-10-21---mergeLeftAndRight---INFO---Merged array = [477, 912]
+2022-10-21---mergeLeftAndRight---INFO---Merge started.
+2022-10-21---mergeLeftAndRight---INFO---L array size = 1
+2022-10-21---mergeLeftAndRight---INFO---R array size = 2
+2022-10-21---mergeLeftAndRight---FINE------+L array is sorted. Finalising R
+2022-10-21---mergeLeftAndRight---FINE------+L array is sorted. Finalising R
+2022-10-21---mergeLeftAndRight---INFO---Merged array = [48, 477, 912]

@@ -19,7 +19,7 @@ public class SortTester {
     @BeforeAll
     public static void setClass() throws InvalidSorterException {
         SorterFactory sorterFactory = new SorterFactory();
-        sorter = sorterFactory.createSorter(1);
+        sorter = sorterFactory.createSorter(3);
         System.out.println("Testing using the sorter " + sorter.getSorterName());
     }
 
@@ -70,4 +70,5 @@ public class SortTester {
         }
     }
 
+    //test duplicates, negative numbers, 0 length, 1 length
 }

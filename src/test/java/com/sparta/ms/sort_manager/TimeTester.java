@@ -5,15 +5,17 @@ import com.sparta.ms.sort_manager.model.algorithms.BubbleSort;
 import com.sparta.ms.sort_manager.model.algorithms.MergeSort;
 import com.sparta.ms.sort_manager.model.algorithms.Sorter;
 import com.sparta.ms.sort_manager.view.DisplayManager;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.text.DecimalFormat;
 import java.util.Arrays;
+import java.util.Random;
 
 public class TimeTester {
     private int[] unsortedArray;
-    private int[] arrayToSort;
+    private static int[] arrayToSort;
 
     public void printResults(String sorterName, long duration, int[] array){
         DecimalFormat df = new DecimalFormat("###,###.##");
@@ -21,6 +23,18 @@ public class TimeTester {
                 + "\nNanoseconds taken: " + df.format(duration)
                 + "\nSorted array: " + Arrays.toString(array));
     }
+
+    @BeforeAll
+    public static void createArray(){
+        int arrayLength = 100;
+        arrayToSort = new int[arrayLength];
+        Random randNumber = new Random();
+
+        for (int i = 0; i < arrayLength; i++){
+            arrayToSort[i] = randNumber.nextInt(1001);
+        }
+    }
+
     @BeforeEach
     public void setup(){
         unsortedArray = arrayToSort.clone();

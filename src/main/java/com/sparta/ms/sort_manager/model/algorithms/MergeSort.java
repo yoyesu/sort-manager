@@ -1,5 +1,7 @@
 package com.sparta.ms.sort_manager.model.algorithms;
 
+import com.sparta.ms.sort_manager.logging.CustomFileHandler;
+import com.sparta.ms.sort_manager.logging.CustomLoggingConfig;
 import com.sparta.ms.sort_manager.logging.MergeSingletonLog;
 
 import java.util.Arrays;
@@ -10,14 +12,19 @@ public class MergeSort extends Sorter {
 
     public static String sorterName = "Merge sort";
     private static final Logger logger = Logger.getLogger("mergesort-logger");
-    MergeSingletonLog config = MergeSingletonLog.getInstance();
+
+    static {
+//        MergeSingletonLog config = MergeSingletonLog.getInstance();
+//        config.logMerge(logger);
+        CustomLoggingConfig.configMergeSortLogger(logger);
+    }
+
     @Override
     public String getSorterName() {
         return sorterName;
     }
 
     public int[] sortArray(int[] givenArray){
-        config.logMerge(logger);
 
         int arraySize = givenArray.length;
 

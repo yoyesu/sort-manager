@@ -23,10 +23,10 @@ public class CustomLoggingConfig {
         logger.setLevel(Level.ALL);
     }
 
-//    public static void configMergeSortLogger(Logger logger){
-//        logger.setUseParentHandlers(false);
-//        logger.addHandler(new SynchronizedLogger());
-//        logger.setLevel(Level.ALL);
-//    }
+    public static void configMergeSortLogger(Logger logger){
+        logger.setUseParentHandlers(false);
+        logger.addHandler(CustomFileHandler.getMergesortFileHandler());
+        logger.setLevel(Level.ALL);
+    }
 
 }

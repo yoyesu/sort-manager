@@ -8,17 +8,18 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class BubbleSort extends Sorter {
-    public static String sorterName = "Bubble sort";
+    public static String sorterName = "Bubble Sort";
 
     private static final Logger logger = Logger.getLogger("bubblesort-logger");
-
+    static {
+        CustomLoggingConfig.configBubbleSortLogger(logger);
+    }
 
     public String getSorterName(){
         return sorterName;
     }
 
     public int[] sortArray(int[] sortedArray){
-        CustomLoggingConfig.configBubbleSortLogger(logger);
 
         if(sortedArray.length <= 1){
             return sortedArray;

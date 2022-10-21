@@ -7,11 +7,11 @@ import com.sparta.ms.sort_manager.model.algorithms.Sorter;
 import java.text.DecimalFormat;
 import java.util.Arrays;
 import java.util.Scanner;
-
+cd 
 public class DisplayManager {
     public static void printStartMenu(){
         System.out.println("Hello! Enter the number of the sorter you prefer or press X to exit");
-        System.out.println("1. Bubble Sort \n2. Merge Sort \n3. Binary Tree Sort \n4. Quick Sort \nX. Exit");
+        System.out.println("1. Bubble Sort \n2. Merge Sort \n3. Binary Tree Sort \n4. Quick Sort");
     }
 
     public static void askForArrayLength(){
@@ -29,7 +29,7 @@ public class DisplayManager {
     public static void printOriginalArray(String sorterName, int[] unsortedArray) {
         String originalArray = Arrays.toString(unsortedArray);
         System.out.println("Algorithm used: " + sorterName +
-                "\nSorted array:\n " + originalArray);
+                "\nOriginal array:\n " + originalArray);
     }
 
     public static void printResult(int[] sortedArray, long startTime, long endTime) {

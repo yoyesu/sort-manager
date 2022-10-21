@@ -17,7 +17,7 @@ public class SorterFactory {
                 return new MergeSort();
             }
             case 3 -> {
-                return new BinaryTreeSort(0);
+                return new BinaryTreeSort();
             }
             case 4 -> {
                 return new Quicksort();
