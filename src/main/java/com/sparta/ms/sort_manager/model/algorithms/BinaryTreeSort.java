@@ -13,8 +13,7 @@ public class BinaryTreeSort extends Sorter {
 
 
     static{
-
-        CustomLoggingConfig.configBinaryTreeLogger(logger);
+        CustomLoggingConfig.configTestLogger(logger,"binary-tree.log");
     }
 
     ///////////// NESTED CLASS START//////////

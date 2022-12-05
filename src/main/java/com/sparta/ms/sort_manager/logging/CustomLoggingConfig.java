@@ -5,33 +5,9 @@ import java.util.logging.Logger;
 
 public class CustomLoggingConfig {
 
-    public static void configBinaryTreeLogger(Logger logger){
+    public static void configTestLogger(Logger logger, String fileName){
         logger.setUseParentHandlers(false);
-        logger.addHandler(CustomFileHandler.getBinaryTreeFileHandler());
-        logger.setLevel(Level.ALL);
-    }
-
-    public static void configQuickSortLogger(Logger logger){
-        logger.setUseParentHandlers(false);
-        logger.addHandler(CustomFileHandler.getQuickSortFileHandler());
-        logger.setLevel(Level.ALL);
-    }
-
-    public static void configBubbleSortLogger(Logger logger){
-        logger.setUseParentHandlers(false);
-        logger.addHandler(CustomFileHandler.getBubblesortFileHandler());
-        logger.setLevel(Level.ALL);
-    }
-
-    public static void configMergeSortLogger(Logger logger){
-        logger.setUseParentHandlers(false);
-        logger.addHandler(CustomFileHandler.getMergesortFileHandler());
-        logger.setLevel(Level.ALL);
-    }
-
-    public static void configInsertionSortLogger(Logger logger){
-        logger.setUseParentHandlers(false);
-        logger.addHandler(CustomFileHandler.getInsertionSortFileHandler());
+        logger.addHandler(CustomFileHandler.getFileHandler(fileName));
         logger.setLevel(Level.ALL);
     }
 

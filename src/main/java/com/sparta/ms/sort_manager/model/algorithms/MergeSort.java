@@ -13,7 +13,7 @@ public class MergeSort extends Sorter {
     private static final Logger logger = Logger.getLogger("mergesort-logger");
 
     static {
-        CustomLoggingConfig.configMergeSortLogger(logger);
+        CustomLoggingConfig.configTestLogger(logger,"merge-sort.log");
     }
 
     @Override

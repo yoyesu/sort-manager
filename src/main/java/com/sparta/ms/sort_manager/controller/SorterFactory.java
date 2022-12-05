@@ -26,9 +26,8 @@ public class SorterFactory {
             case 5 -> {
                 return new InsertionSort();
             }
-            default -> {
-                throw new InvalidSorterException();
-            }
+            default -> throw new InvalidSorterException();
+
         }
 
     }

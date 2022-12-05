@@ -11,7 +11,7 @@ public class InsertionSort extends Sorter {
     public static String sorterName = "Insertion Sort";
     private static final Logger logger = Logger.getLogger("insertionsort-logger");
         static {
-            CustomLoggingConfig.configInsertionSortLogger(logger);
+            CustomLoggingConfig.configTestLogger(logger, "insertion-sort.log");
         }
 
     @Override

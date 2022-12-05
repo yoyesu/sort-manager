@@ -11,7 +11,7 @@ public class Quicksort extends Sorter{
     private static final Logger logger = Logger.getLogger("quicksort-logger");
 
     static{
-        CustomLoggingConfig.configQuickSortLogger(logger);
+        CustomLoggingConfig.configTestLogger(logger,"quicksort.log");
     }
     @Override
     public String getSorterName() {

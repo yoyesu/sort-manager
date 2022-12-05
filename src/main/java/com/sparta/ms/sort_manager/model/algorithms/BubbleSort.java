@@ -10,7 +10,7 @@ public class BubbleSort extends Sorter {
 
     private static final Logger logger = Logger.getLogger("bubblesort-logger");
     static {
-        CustomLoggingConfig.configBubbleSortLogger(logger);
+        CustomLoggingConfig.configTestLogger(logger, "bubble-sort.log");
     }
 
     public String getSorterName(){
